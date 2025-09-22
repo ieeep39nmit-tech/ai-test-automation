@@ -1,0 +1,10 @@
+The system should provide a secure authentication mechanism that allows users to log in to their accounts using their registered email address and password. Upon entering valid credentials, the system must authenticate the user and redirect them to their personalized dashboard.
+To protect user accounts from brute-force attacks, the system must lock a user account after five consecutive failed login attempts. Any attempt to log in with the correct credentials after the lockout should be denied until the lock is lifted.
+The system must provide users with the ability to securely reset their passwords in case they forget them. This should be done via a verification email containing a secure reset link, which allows the user to set a new password.
+The system dashboard must act as the user’s central hub by displaying recent activity, notifications, and other personalized information in a clear and accessible manner immediately after login.
+The application should allow users to personalize their profile by uploading profile pictures in commonly used image formats such as JPG and PNG, while rejecting unsupported formats with a clear error message.
+The registration process must validate that all email addresses entered follow the correct format, ensuring only properly structured emails are accepted. Invalid emails should be rejected with inline validation messages.
+For maximum security, all user passwords must be stored in the system using irreversible hashing with the SHA-256 algorithm. Under no circumstances should passwords be stored in plaintext.
+The application should improve accessibility and user comfort by offering a dark mode option, allowing users to switch between light and dark themes seamlessly across the entire application.
+Upon successful registration, the system must send a confirmation email to the new user, ensuring the email address is valid and allowing the user to verify their account.
+To enhance security, the system must automatically log out users after 15 minutes of inactivity. Any attempt to perform an action after timeout should redirect the user to the login page.

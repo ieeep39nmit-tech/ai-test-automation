@@ -1,0 +1,6 @@
+TestCaseID,FailureMessage,ActualDefectType,PredictedDefectType,AssignedTeam
+TC_001,Login button not clickable intermittently,Flaky Test,Flaky Test,QA Team
+TC_005,NullPointerException in PaymentModule,Code Defect,Code Defect,Developer Team
+TC_008,Database connection timeout,Environment Issue,Environment Issue,Environment/DevOps Team
+TC_012,Page not loading due to network error,Environment Issue,Environment Issue,Environment/DevOps Team
+TC_015,Incorrect calculation in invoice total,Code Defect,Code Defect,Developer Team

@@ -1,0 +1,4 @@
+RequestData,RequestLength,NumParams,PredictedResponseTime,AnomalyFlag
+GET /users?id=2,15,1,132.2,OK
+"POST /login {user:def, pwd:456}",31,0,246.4,OK
+GET /orders?id=20,17,1,146.0,OK
